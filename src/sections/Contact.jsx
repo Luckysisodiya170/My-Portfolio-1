@@ -53,13 +53,13 @@ export default function Contact() {
           
           <div className="space-y-6">
             <div>
-              <p className="text-white/30 text-[10px] font-black uppercase tracking-widest mb-2">Email Me</p>
+              <p className="text-white/30 text-[10px] font-black uppercase tracking-widest mb-2"> My Email</p>
               <p className="text-white font-bold text-xl hover:text-indigo-400 transition-colors cursor-pointer">
-                luckysisodiya170@email.com
+                luckysisodiya170@gmail.com
               </p>
             </div>
             <div className="flex gap-6 pt-4">
-              {['Github', 'LinkedIn', 'Twitter'].map(s => (
+              {['Github', 'LinkedIn'].map(s => (
                 <a key={s} href="#" className="text-white/40 hover:text-indigo-500 transition-colors uppercase text-[10px] font-black tracking-[0.2em]">{s}</a>
               ))}
             </div>
